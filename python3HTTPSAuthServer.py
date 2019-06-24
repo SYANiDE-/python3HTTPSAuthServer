@@ -105,7 +105,6 @@ class AuthHandler(SimpleHTTPRequestHandler):
 
 
 def build_server(ARGS):
-	# httpd = HTTPServer((ARGS.ip, ARGS.port), SimpleHTTPRequestHandler)
 	if not ARGS['auth'] == None:
 		httpd = HTTPServer((ARGS['ip'], ARGS['port']), AuthHandler)
 	else:
@@ -146,3 +145,4 @@ def main():
 
 if __name__=="__main__":
 	main()
+
