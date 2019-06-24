@@ -6,12 +6,11 @@ Supports:
   - Self-generates self-signed certificate, or you can bring your own
 
 
-usage: python3HTTPSAuthServer.py [-h] [-i IP] [-p PORT] [-a AUTH] [-s]  
-                                 [-c CERT] [-k PRIVATEKEY]  
+`usage: python3HTTPSAuthServer.py [-h] [-i IP] [-p PORT] [-a AUTH] [-s] [-c CERT] [-k PRIVATEKEY]`  
   
-Python HTTPS Auth Server  
+`Python HTTPS Auth Server`  
   
-optional arguments:    
+`optional arguments:`    
 `-h, --help            show this help message and exit`  
 `-i IP, --ip IP        Bind IP (Default all interfaces 0.0.0.0)`  
 `-p PORT, --port PORT  Bind port, default 8443`  
