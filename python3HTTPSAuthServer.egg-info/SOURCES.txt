@@ -1,0 +1,8 @@
+README.md
+setup.py
+python3HTTPSAuthServer/__init__.py
+python3HTTPSAuthServer/__main__.py
+python3HTTPSAuthServer.egg-info/PKG-INFO
+python3HTTPSAuthServer.egg-info/SOURCES.txt
+python3HTTPSAuthServer.egg-info/dependency_links.txt
+python3HTTPSAuthServer.egg-info/top_level.txt

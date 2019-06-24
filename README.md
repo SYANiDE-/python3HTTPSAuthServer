@@ -18,9 +18,19 @@ Supports:
 `-s, --https           Use HTTPS`  
 `-c CERT, --cert CERT  If you brought your own CERT, then by all means... [fullpath]`  
 `-k PRIVATEKEY, --privatekey PRIVATEKEY If you brought your own PRIVATE_KEY, then by all means... [fullpath]`  
+   
   
-  
+### Install using pip3:
+`sudo python3 -m pip install python3HTTPSAuthServer`  
 
+### Run the familiar way
+`python3 -m python3HTTPSAuthServer`  
+
+### Get Help
+`python3 -m python3HTTPSAuthServer -h`  
+
+### HTTPS via JIT self-signed certificate and HTTP Basic AUTH, port 443:
+`python3 -m python3HTTPSAuthServer -https -auth 'benzo:qu4rantyne!' -i 192.168.56.110 -p 443`
 
 
 
